@@ -14,10 +14,6 @@
 
 LOCAL_PATH := vendor/samsung/smdk4412-common
 
-PRODUCT_PACKAGES += \
-	libUMP \
-	libfimc
-
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/sbin/cbd:root/sbin/cbd
 
@@ -57,7 +53,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libcec.so:system/lib/libcec.so \
     $(LOCAL_PATH)/proprietary/system/lib/libddc.so:system/lib/libddc.so \
     $(LOCAL_PATH)/proprietary/system/lib/libedid.so:system/lib/libedid.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libfimc.so:system/lib/libfimc.so \
     $(LOCAL_PATH)/proprietary/system/lib/libfimg.so:system/lib/libfimg.so \
     $(LOCAL_PATH)/proprietary/system/lib/libhwconverter.so:system/lib/libhwconverter.so \
     $(LOCAL_PATH)/proprietary/system/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
@@ -68,7 +63,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
     $(LOCAL_PATH)/proprietary/system/lib/libquramimagecodec.so:system/lib/libquramimagecodec.so \
     $(LOCAL_PATH)/proprietary/system/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libUMP.so:system/lib/libUMP.so \
     $(LOCAL_PATH)/proprietary/system/lib/libvdis.so:system/lib/libvdis.so
 
 PRODUCT_COPY_FILES += \
